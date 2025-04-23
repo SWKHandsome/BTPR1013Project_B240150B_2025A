@@ -67,9 +67,10 @@ body{
     text-align: center;
     margin-top: 40px;
     /* background: linear-gradient(to right, rgb(67, 67, 226),rgb(211, 75, 211)); */
-    background-image: url(https://pecb.com/article_docs/images/C9F2E90B86C762E5CFF56618FDE0CC12.png);
+    background-image: url(https://media.discordapp.net/attachments/1349638003353714739/1364538145479200808/Z.png?ex=680a08ad&is=6808b72d&hm=6e760d034d06bd1a75244f71dae1e909f788d14e0468b911918ff4f7889e4797&=&format=webp&quality=lossless&width=510&height=268);
     background-repeat: no-repeat;
-    background-size: 2500px;
+    background-size: 1500px;
+    background-position: top;
     color: white;
     padding: 50px 50px;
     border: none;
