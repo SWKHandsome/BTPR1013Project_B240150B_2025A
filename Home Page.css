@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: white;
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 50px;
+    background: linear-gradient(to right, #0f2027,#0352b4, #02a6a6);
+}
+
+.title{
+    display: flex;
+}
+
+.title i{
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+.title h1{
+    font-weight: 700;
+    color: white;
+    margin-top: 3px;
+}
+
+.navBar ul{
+    display: flex;
+    align-items: center;
+}
+
+.navBar ul li{
+    list-style: none;
+    margin-bottom: -5px;
+}
+
+.navBar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-right: 35px;
+    font-size: 20px;
+    transition: color 0.3s ease;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.navBar ul li:hover a{
+    color:rgb(67, 67, 226);
+}
+
+.navBar ul i {
+    font-size: 25px;
+}
+
+.up{
+    text-align: center;
+    margin-top: 40px;
+    /* background: linear-gradient(to right, rgb(67, 67, 226),rgb(211, 75, 211)); */
+    background-image: url(https://pecb.com/article_docs/images/C9F2E90B86C762E5CFF56618FDE0CC12.png);
+    background-repeat: no-repeat;
+    background-size: 2500px;
+    color: white;
+    padding: 50px 50px;
+    border: none;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+
+
+.up h1{
+    font-size: 120px;
+    margin-bottom: 20px;
+}
+
+.up p{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-bottom: auto;
+    padding: 0 5%;
+
+}
+
+button a{
+    text-decoration: none;
+}
+
+.learnBtn {
+    background-color: white;
+    border: none;
+    padding: 20px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    color: rgb(67, 67, 226);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.content {
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 150px;
+
+}
+
+.contentH1{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.box {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.329);
+    padding: 20px 0;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    flex:1 1 3rem;
+
+}
+
+.information {
+    justify-content: center;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.information h1{
+    margin-bottom: 30px;
+}
+
+
+.information p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    width: 300px;
+    /* border: solid 2px black; */
+    
+
+}
+
+.list i{
+    font-size: 100px;
+    margin-bottom: 30px;
+}
+
+.latest{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.latest h1{
+    text-align: start;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.list2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 200px;
+
+}
+
+img{
+    max-width: 500px;
+    border-radius: 16px;
+    position: relative;
+    
+    
+
+}
+
+.box1 {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.329);
+    padding: 0px;
+    border-radius: 16px;
+}
+
+.box1 h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    text-align: start;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.box1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.box1 p {
+    padding-bottom: 20px;
+    font-size: 18px;
+    text-align: start;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+
+.footer {
+    background-color: rgb(12, 37, 61);
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 150px;
+}
+
+.cybersafe {
+    text-align: left;
+    margin-top: 50px;
+}
+.cybersafe h3 {
+    margin-bottom: 20px;
+}
+
+.cybersafe p {
+    line-height: 1.6; 
+}
+
+
+.links {
+    text-align: left;
+    margin-top: 100px;
+}
+
+.links h3 {
+    margin-bottom: 20px;
+}
+
+.links ul li {
+    list-style: none;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 15px;
+    display: flex;
+
+}
+
+
+.connect {
+    text-align: left;
+    margin-top: 50px;
+
+}
+
+.connect h3{
+    margin-bottom: 20px;
+}
+
+.connect p {
+    line-height: 1.6; 
+}
+
+.copy {
+    background-color: rgb(12, 37, 61);
+    color: white;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+
