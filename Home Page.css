@@ -5,18 +5,68 @@
     box-sizing: border-box;
 }
 
+:root{
+    --primary:#0f2027;
+    --secondary:#0352b4;
+    --third:#02a6a6;
+    --div-color: #ffffff;
+    --body-color: #fdfdfd;
+    --txt-color: #ffffff;
+    --btn-color:rgb(67,67,226);
+    --container-color:#ffffff;
+    --container-txt:#000000;
+}
+
+.darkmode{
+    --primary:#dedede;
+    --secondary:#0f2027;
+    --third:#0352b4;
+    --div-color: #ebebeb;
+    --body-color: #303030;
+    --txt-color: #ffffff;
+    --btn-color: #0351b1;
+    --container-color:#b1b1b1;
+    --container-txt:#ffffff;
+}
+
+#theme-switch{
+    height:30px;
+    width:30px;
+    padding:0;
+    border: 1px solid rgba(255,255,255,0);
+    border-radius: 50%;
+    background-color:var(--primary);
+}
+
+#theme-switch svg{
+    fill: grey;
+}
+
+#theme-switch svg:last-child{
+    display:none;
+}
+
+.darkmode #theme-switch svg:first-child{
+    display:none;
+}
+
+.darkmode #theme-switch svg:last-child{
+    display:block;
+}
+
 body{
     height: 100vh;
-    background: white;
+    background: var(--body-color);
 }
 
 .navBar{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     height: 80px;
     padding: 0 50px;
-    background: linear-gradient(to right, #0f2027,#0352b4, #02a6a6);
+    background: linear-gradient(to right, var(--primary),var(--secondary),var(--third));
 }
 
 .title{
@@ -30,7 +80,7 @@ body{
 
 .title h1{
     font-weight: 700;
-    color: white;
+    color: var(--txt-color);
     margin-top: 3px;
 }
 
@@ -46,7 +96,7 @@ body{
 
 .navBar ul li a{
     text-decoration: none;
-    color: white;
+    color: var(--txt-color);
     font-size: 16px;
     margin-right: 35px;
     font-size: 20px;
@@ -56,7 +106,7 @@ body{
 }
 
 .navBar ul li:hover a{
-    color:rgb(67, 67, 226);
+    color:var(--btn-color);
 }
 
 .navBar ul i {
@@ -71,7 +121,7 @@ body{
     background-repeat: no-repeat;
     background-size: 1500px;
     background-position: top;
-    color: white;
+    color: var(--txt-color);
     padding: 50px 50px;
     border: none;
     margin-right: 30px;
@@ -111,7 +161,7 @@ button a{
     font-size: 20px;
     font-weight: bold;
     border-radius: 30px;
-    color: rgb(67, 67, 226);
+    color: var(--btn-color);
     margin-left: auto;
     margin-right: auto;
 }
@@ -131,7 +181,7 @@ button a{
     font-size: 50px;
     margin-left: auto;
     margin-right: auto;
-
+    color:var(--primary);
 }
 
 .list {
@@ -151,6 +201,8 @@ button a{
     justify-content: center;
     position: relative;
     flex:1 1 3rem;
+    background-color:var(--container-color);
+    color:var(--container-txt);
 
 }
 
@@ -164,6 +216,7 @@ button a{
 
 .information h1{
     margin-bottom: 30px;
+    color:black;
 }
 
 
@@ -174,6 +227,7 @@ button a{
     font-size: 20px;
     width: 300px;
     /* border: solid 2px black; */
+    color:black;
     
 
 }
@@ -193,6 +247,7 @@ button a{
     text-align: start;
     margin-left: 100px;
     margin-bottom: 50px;
+    color:var(--primary);
 }
 
 .list2 {
@@ -216,12 +271,13 @@ img{
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.329);
     padding: 0px;
     border-radius: 16px;
+    background-color:var(--container-color);
 }
 
 .box1 h2 {
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: white;
+    background-color: var(--container-color);
     text-align: start;
     padding-left: 5%;
     padding-right: 5%;

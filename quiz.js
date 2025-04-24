@@ -1,25 +1,25 @@
 const quizData = [
     {
-        question: "What is phishing?",
-        options: ["A type of malware.", "A social engineering attack.", "A firewall.", "An antivirus software."],
-        correct: 1,
-        notes: "Phishing is a type of social engineering attack where attackers trick individuals into providing sensitive information."
+        question: "What is the primary purpose of a firewall in network?",
+        options: ["To encrypt data.", "To monitor network traffic.", "To block unauthorized access.", "To manage user passwords."],
+        correct: 2,
+        notes: "A firewall is a network security device that monitors and filters incoming and outgoing network traffic based on an organization's previously established security policies."
     },
 
     {
         question: "What is a strong password?",
-        options: ["A password with at least 14 characters, including letter, numbers and special characters.", 
+        options: ["A password with at least 16 characters, including letter, numbers and special characters.", 
             "A password that is easy to remember, like 'password123'.", "A password that uses only lowercase letters.", "A password that is the same as your username."],
         correct: 0,
-        notes: "A strong password should be at least 14 characters long and include a mix of letters, numbers, and special characters to enhance security."
+        notes: "A strong password should be at least 16 characters long and include a mix of letters, numbers, and special characters to enhance security."
     },
 
     {
-        question: "What is two-factor authentication (2FA)?",
-        options: ["A method of logging in using only a password.", "A security process that requires two different forms of identification.", 
-            "A type of firewall.", "A method of encrypting data."],
+        question: "Which of the following best describes multi-factor authentication (MFA)?",
+        options: ["Using a single password to access multiple accounts.", "Combining two or more independent credentials to verify a user's identity.", 
+            "Encrypting data before transmission.", "Using biometric data as the sole method of authentication."],
         correct: 1,
-        notes: "Two-factor authentication (2FA) adds an extra layer of security by requiring two forms of identification,such asa password and a code sent to your phone."
+        notes: "Multi-factor authentication (MFA) enhances security by requiring users to provide two or more verification factors to gain access to a resource such as an application, online account, or VPN."
     }, 
     
     {
@@ -30,10 +30,10 @@ const quizData = [
     },
 
     {
-        question:"What is a firewall?",
-        options: ["A physical barrier to prevent fires.","A network security system that monitors and controls incoming and outgoing network traffic.","A type of antivirus software.","A method of encrypting data."],
-        correct: 1,
-        notes: "A firewall is a network security system that helps protect your computer by monitoring and controlling incoming and outgoing network traffic based on predetermined security rules."
+        question:"Why is it important to use a VPN when connecting to public Wi-Fi?",
+        options: ["To increase internet speed.","To disable the firewall on your device.","To share your browsing history with others.","To encrypt your internet traffic and protect your data."],
+        correct: 3,
+        notes: "Public Wi-Fi networks are often unsecured, making it easy for hackers to intercept your data. A VPN encrypts your internet traffic, protecting your sensitive information from being accessed by malicious actors."
     }
     // Add more quiz questions here
 ];

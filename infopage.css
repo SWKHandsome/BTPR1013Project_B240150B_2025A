@@ -14,6 +14,7 @@ body {
     justify-content: space-between;
     height: 80px;
     padding: 0 50px;
+    margin-top: -10px;
     background: linear-gradient(to right, #0f2027,#0352b4, #02a6a6);
 }
 
@@ -106,7 +107,7 @@ body {
 .section h2 {
     margin-top: 10px;
     color: #0352b4;
-    width: 300px;
+    width: 400px;
 }
 
 .section p {
